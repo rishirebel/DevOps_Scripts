@@ -8,7 +8,7 @@ fi
 
 set -e
 
-NODE_VERSION='22.0.15'
+NODE_VERSION='22.15.0'
 export NVM_DIR="/usr/local/nvm"
 
 # Ask user to set PostgreSQL password securely
