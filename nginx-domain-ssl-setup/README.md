@@ -52,6 +52,7 @@ Universal domain configuration script for NGINX with automatic SSL certificate m
 
 ### Command
 ```bash
+chmod +x setup_domain.sh
 ./setup_domain.sh
 ```
 
