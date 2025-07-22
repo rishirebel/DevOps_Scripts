@@ -53,7 +53,13 @@ sudo ./server_setup.sh
 
 ## 🚀 Usage Instructions
 
-### Step 1: Server Setup
+### Step 1: Make it Executable
+```bash
+chmod +x server_setup.sh
+chmod +x post_setup_check.sh
+```
+
+### Step 2: Server Setup
 ```bash
 sudo ./server_setup.sh
 ```
@@ -64,7 +70,7 @@ sudo ./server_setup.sh
 - Configure system security (UFW firewall)
 - Set up remote PostgreSQL access
 
-### Step 2: Validation
+### Step 3: Validation
 ```bash
 ./post_setup_check.sh
 ```
